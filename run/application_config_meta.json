@@ -1,0 +1,245 @@
+{
+  "keys": "/Users/luyadong/demo/demo/config/config.default.js",
+  "onerror": {
+    "errorPageUrl": "/Users/luyadong/demo/demo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/luyadong/demo/demo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/luyadong/demo/demo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/luyadong/demo/demo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/luyadong/demo/demo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/luyadong/demo/demo/node_modules/egg-session/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/luyadong/demo/demo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/luyadong/demo/demo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/luyadong/demo/demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/luyadong/demo/demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/luyadong/demo/demo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/luyadong/demo/demo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/luyadong/demo/demo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/luyadong/demo/demo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/luyadong/demo/demo/node_modules/egg-multipart/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/luyadong/demo/demo/node_modules/egg-security/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/luyadong/demo/demo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/luyadong/demo/demo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/luyadong/demo/demo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/luyadong/demo/demo/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/luyadong/demo/demo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/luyadong/demo/demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/luyadong/demo/demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/luyadong/demo/demo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/luyadong/demo/demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/luyadong/demo/demo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/luyadong/demo/demo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/luyadong/demo/demo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/luyadong/demo/demo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/luyadong/demo/demo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/luyadong/demo/demo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/luyadong/demo/demo/node_modules/egg-static/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/luyadong/demo/demo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/luyadong/demo/demo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/luyadong/demo/demo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/luyadong/demo/demo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/luyadong/demo/demo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/luyadong/demo/demo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/luyadong/demo/demo/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/luyadong/demo/demo/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "name": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "version": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "description": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "private": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "stop": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "dev": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "test": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "cov": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "lint": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "ci": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "autod": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "url": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "license": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "env": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "level": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/luyadong/demo/demo/node_modules/egg/config/config.local.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "port": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/luyadong/demo/demo/node_modules/egg/config/config.default.js"
+    }
+  }
+}
