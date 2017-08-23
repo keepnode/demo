@@ -36,7 +36,6 @@ module.exports = app => {
      * querystring.escape 把URL字符串进行编码
      */
     * escape(){
-      console.log('escape')
       const strParams='q=中文&oq=中文&aqs=chrome..69i57j69i61l3j69i65l2.5370j0j1&sourceid=chrome&ie=UTF-8'
       const result=querystring.escape(strParams);
       this.ctx.body=result
